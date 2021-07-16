@@ -20,7 +20,7 @@ yum install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel mak
 ```
 Step 4: We need to take Clone s3fs code from GitHub
 ```
-#git clone https://github.com/s3fs-fuse/s3fs-fuse.git
+git clone https://github.com/s3fs-fuse/s3fs-fuse.git
 ```
 Step 5: we need to run the code in our system 
 ```
