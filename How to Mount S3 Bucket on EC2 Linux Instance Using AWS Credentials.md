@@ -67,7 +67,9 @@ df -h
 Step 13: when we reboot this instance it will unmount the bucket.
 
 For this we make an entry in /etc/fstab
-
+```
+vi /etc/fstab
+```
 ex: cloudsbaba /demobucket fuse.s3fs _netdev,allow_other 0 0
 ```
 mybucket /path/to/mountpoint fuse.s3fs _netdev,allow_other 0 0
