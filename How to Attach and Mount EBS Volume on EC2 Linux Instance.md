@@ -1,5 +1,5 @@
 # How to Attach and Mount EBS volume to EC2 Linux 
-Hi All, 
+Hi All,  
 
 I am assuming that you have already created an EC2 Linux instance with root volume of (X GB) and it is in running state. 
 Now you want to add more volume to your Instance then go to EC2 service and select EBS volumes and create a new volume. 

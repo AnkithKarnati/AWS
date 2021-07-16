@@ -1,6 +1,6 @@
 # How to Unmount EBS volume of EC2 Linux Instance
 Hi All,
-
+ 
 In this blog will explain how we can unmount volume in Linux Instance
 
 I am assuming that you have a running Linux EC2 instance on AWS  we want to unmount particular volume in our Linux EC2 instance.

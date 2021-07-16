@@ -1,6 +1,6 @@
 # How to Extend Root Volume of EC2 Linux Instance
 Hi All,
-
+ 
 In this blog will explain how to extend EBS volume in EC2 Linux instance
 
 I am assuming that you have created an ec2 Linux instance with root volume of (X amount of GB) and it is in running state. 
