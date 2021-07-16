@@ -73,6 +73,8 @@ vi /etc/fstab
 ex: cloudsbaba /demobucket fuse.s3fs _netdev,allow_other 0 0
 ```
 mybucket /path/to/mountpoint fuse.s3fs _netdev,allow_other 0 0
+```
+```
 mount -a
 ```
 Step 14: To confirm
