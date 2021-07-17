@@ -30,7 +30,9 @@ cd s3fs-fuse
 ```
 ./configure --prefix=/usr --with-openssl
 ```
+```
 make
+```
 ```
 make install
 ```
