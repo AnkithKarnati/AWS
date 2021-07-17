@@ -23,17 +23,13 @@ git clone https://github.com/s3fs-fuse/s3fs-fuse.git
 Step 5: we need to run the code in our system 
 ```
 cd s3fs-fuse
-```
-```
+
 ./autogen.sh
-```
-```
+
 ./configure --prefix=/usr --with-openssl
-```
-```
+
 make
-```
-```
+
 make install
 ```
 Step 6:  To check whether s3fs is configured or not we need run below command
