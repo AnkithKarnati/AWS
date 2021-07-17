@@ -45,7 +45,7 @@ Step 8: Replace access-key-id and secret-access-key with your keys
 ex: hghjhsut9t57huo45592840:jhighuahdguhugigigi!#45678ihu9
 ```
 ```
-#Your_accesskey:Your_secretkey
+Your_accesskey:Your_secretkey
 ```
 save and exit
 
