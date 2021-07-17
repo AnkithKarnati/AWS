@@ -41,11 +41,12 @@ Create a file passwd-s3fs and save access and secret key of the user
 vi /etc/passwd-s3fs
 ```
 Step 8: Replace access-key-id and secret-access-key with your keys
-
+```
 ex: hghjhsut9t57huo45592840:jhighuahdguhugigigi!#45678ihu9
-
+```
+```
 #Your_accesskey:Your_secretkey
-
+```
 save and exit
 
 Step 9: change permissions
@@ -58,7 +59,7 @@ mkdir /demobucket
 ```
 Step 11: Mount the bucket
 ```
-s3fs your_bucketname /demobucket -o use_cache=/tmp -o allow_other -o uid=1001 -o mp_umask=002 -o multireq_max=5 -o use_path_request_style -o url=https://s3.us-east-1.amazonaws.com
+s3fs southrdtestbucket /demobucket -o use_cache=/tmp -o allow_other  -o nonempty -o uid=1001 -o mp_umask=002 -o multireq_max=5 -o use_path_request_style -o url=https://s3.console.aws.amazon.com/s3/home?region=ap-south-1
 ```
 Step 12: Now it will mount this bucket as a directory to check that you can use the below command
 ```
@@ -70,9 +71,9 @@ For this we make an entry in /etc/fstab
 ```
 vi /etc/fstab
 ```
-ex: cloudsbaba /demobucket fuse.s3fs _netdev,allow_other 0 0
+ex: awssouthregionbucket /demobucket fuse.s3fs _netdev,allow_other 0 0
 ```
-mybucket /path/to/mountpoint fuse.s3fs _netdev,allow_other 0 0
+mybucket /demobucket fuse.s3fs _netdev,allow_other 0 0
 ```
 ```
 mount -a
