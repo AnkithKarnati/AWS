@@ -41,9 +41,8 @@ Create a file passwd-s3fs and save access and secret key of the user
 vi /etc/passwd-s3fs
 ```
 Step 8: Replace access-key-id and secret-access-key with your keys
-```
+
 ex: hghjhsut9t57huo45592840:jhighuahdguhugigigi!#45678ihu9
-```
 ```
 Your_accesskey:Your_secretkey
 ```
