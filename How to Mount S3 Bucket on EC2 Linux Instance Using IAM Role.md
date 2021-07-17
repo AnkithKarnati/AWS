@@ -49,7 +49,7 @@ Step 8:We need to Add the below entry in fstab
 vi  /etc/fstab
 ```
 ```
-#s3fs#yourbucketname /demobucket fuse _netdev,allow_other,uid=1002,gid=1002,iam_role=your-iam-role,use_cache=/tmp,url=https://s3.us-east-1.amazonaws.com 0 0
+s3fs#yourbucketname /demobucket fuse _netdev,allow_other,uid=1002,gid=1002,iam_role=your-iam-role,use_cache=/tmp,url=https://s3.ap-south-1.amazonaws.com 0 0
 ```
 ```
 mount -a
