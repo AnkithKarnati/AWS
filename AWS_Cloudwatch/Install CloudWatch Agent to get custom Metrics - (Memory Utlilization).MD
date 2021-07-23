@@ -51,4 +51,4 @@ In the config wizard we selected to collect Metrics like Ram etc.
 
 Congratulations! you just collected and graphed EC2 Custom metrics using the Cloudwatch Unified Agent
 
-***Happy Learning
+***Happy Learning***
