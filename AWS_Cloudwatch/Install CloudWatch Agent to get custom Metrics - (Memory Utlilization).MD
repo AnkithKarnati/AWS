@@ -14,21 +14,20 @@ Find the cloudwatch agent download link here: https://docs.aws.amazon.com/Amazon
 
 Download the Cloudwatch Unified Agent. Find the right agent link for your OS by visiiting the above link
 
-'''
+```
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
-
-'''
+```
 Install the Cloudwatch Agent
 
-'''
+```
 sudo rpm -U ./amazon-cloudwatch-agent.rpm
-'''
+```
 
 Configure the Cloudwatch agent with the help of a setup wizard:
 
-'''
+```
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
-'''
+```
 
 Choose all the default option except don't install statd and collectd. Select YES when asked to collect Memory Utilization metric. 
 
@@ -36,9 +35,9 @@ Select NO when asked if you want to monitor log files.
 
 Start the agent
 
-'''
+```
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
-'''
+```
 
 You should be set! We'll explore the collected metrics now.
 
