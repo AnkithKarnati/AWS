@@ -36,15 +36,15 @@ file -s /dev/xvdf
 ```
 To make xfs filesystem then use below cmd to create a filesystem 
 ```
-mkfs -t xfs /dev/xvdf 
+mkfs.xfs /dev/xvdf 
 ```
 To make ext4 filesystem then then use below cmd to to create a filesystem 
 ```
-mkfs -t ext4 /dev/xvdf 
+mkfs.ext4 /dev/xvdf 
 ```
 create a mount directory 
 ```
-mkdir -p /volume
+mkdir /volume
 ```
 To mount the device to that directory
 ```
