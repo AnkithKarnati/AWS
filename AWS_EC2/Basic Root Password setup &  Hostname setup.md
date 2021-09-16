@@ -22,7 +22,7 @@ Path : vi /etc/ssh/sshd_config
 uncomment/Modify below details and save it
 ```
 PermitRootLogin yes
-PasswordAuthentication no
+PasswordAuthentication yes
 ```
 After saving need to restart the sshd service
 ```
