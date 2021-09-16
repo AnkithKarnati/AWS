@@ -1,7 +1,7 @@
 # How to Set Root Password in EC2 Linux Instance
 Hi All,
  
-In this blog will explain how we can to Set Root Password in EC2 Linux Instance
+In this blog will explain how can we Set Root Password in EC2 Linux Instance
 
 I am assuming that you have a running Linux EC2 instance on AWS
 
